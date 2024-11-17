@@ -1,0 +1,34 @@
+.journal-iItem__header {
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin: 0;
+}
+
+.journal-iItem__body {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} 
+
+.journal-iItem__date {
+font-weight: 400;
+font-size: 16px;
+color: rgba(255,255,255, 0.4);
+font-style: normal;
+line-height: normal;
+margin: 0;
+}
+
+.journal-iItem__ {
+font-weight: 400;
+font-size: 16px;
+color: rgba(255,255,255, 0.4);
+font-style: normal;
+line-height: normal;
+overflow: hidden;
+white-space: nowrap;
+text-align: ellipsis;
+max-width: 240px;
+}

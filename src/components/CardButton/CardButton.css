@@ -1,0 +1,26 @@
+.card-button {
+    border-radius: 3px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border: none;
+    cursor: pointer;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    color: #fff;
+    transition-duration: 0.03s;
+    transition-property: background-color;
+    outline: none;
+}
+
+.card-button:hover,
+.card-button:focus,
+.card-button:focus-within {
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.card-journal {
+    flex-direction: column;
+}

@@ -10,6 +10,7 @@
     background-color: #312eb5;
     transition-duration: 0.5s;
     transition-property: background-color ;
+    outline: none;
 }
 .button:hover,
 .button:focus,
