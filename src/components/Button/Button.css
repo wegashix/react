@@ -1,0 +1,18 @@
+.button {
+    border-radius: 6px;
+    padding: 8px 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    color: #fff;
+    border: none;
+    background-color: #312eb5;
+    transition-duration: 0.5s;
+    transition-property: background-color ;
+}
+.button:hover,
+.button:focus,
+.button:focus-within {
+    background-color: #4f4eae;
+}
